@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+
+<!-- Mirrored from www.customrp.xyz/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 28 Jan 2023 10:54:50 GMT -->
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Simple custom Rich Presence manager (Playing status) for Discord. Windows 7+ only. Features run on startup and minimizing to tray. Translated to multiple languages." lang="en">
+<meta name="author" content="maximmax42">
+<meta name="robots" content="index, follow" />
+<meta name="referrer" content="always" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="color-scheme" content="dark" />
+<meta name="theme-color" content="#333333" />
+<meta property="og:title" content="CustomRP - Custom Discord Status">
+<meta property="og:description" content="Simple custom Rich Presence manager (Playing status) for Discord. Windows 7+ only. Features run on startup and minimizing to tray. Translated to multiple languages.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="banner.png">
+<meta property="og:url" content="index.html">
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:creator" content="@maximmax42" />
+<script src="cdn-cgi/apps/head/Kn7G2BnwYOfX-hU6bWTikw5o_Xg.js"></script><link rel="canonical" href="index.html">
+<link rel="alternate" href="index.html" hreflang="x-default" />
+<link rel="alternate" href="index2139.html?lang=ru" hreflang="ru" />
+<link rel="icon" type="image/png" sizes="256x256" href="assets/logo.png">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+<link rel="stylesheet" href="assets/style.css">
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-130816002-3" type="3ced9f6b60a0f99050e7df35-text/javascript"></script>
+<script type="3ced9f6b60a0f99050e7df35-text/javascript">
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-130816002-3');
+    </script>
+
+<script type="3ced9f6b60a0f99050e7df35-text/javascript">window.yaContextCb = window.yaContextCb || []</script>
+<script src="../yandex.ru/ads/system/context.js" async type="3ced9f6b60a0f99050e7df35-text/javascript"></script>
+
+<script type="3ced9f6b60a0f99050e7df35-text/javascript">window.yaContextCb.push(() => {
+            Ya.Context.AdvManager.render({
+                type: 'fullscreen',
+                platform: 'touch',
+                blockId: 'R-A-2137467-2'
+            })
+        })</script>
+
+
+<link href="assets/fontawesome/css/all.min.css" rel="stylesheet">
+<script src="../cdn.jsdelivr.net/npm/sweetalert2%4011/dist/sweetalert2.min.js" type="3ced9f6b60a0f99050e7df35-text/javascript"></script>
+<link rel="stylesheet" href="http://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@5">
+<noscript>
+        <style>
+            .ver {
+                display: none;
+            }
+        </style>
+    </noscript>
+<title>CustomRP - Custom Discord Status</title>
+</head>
+<body>
+<header>
+<div>
+<img src="assets/logo.png" alt="CustomRP Logo">
+<h1>CustomRP</h1>
+</div>
+<p data-i18n-id="description">Custom Discord Rich Presence Manager for Windows 7+.</p>
+<a href="https://github.com/maximmax42/Discord-CustomRP/releases/download/1.17.1/CustomRP.1.17.1.exe" title="Installer" id="exe" class="btn">
+<i class="fa-solid fa-download"></i>
+<div data-i18n-id="btn-installer" class="i18n">Installer</div>
+</a>
+<a href="https://github.com/maximmax42/Discord-CustomRP/releases/download/1.17.1/CustomRP.1.17.1.zip" title="Portable" id="zip" class="btn">
+<i class="fa-solid fa-file-archive"></i>
+<div data-i18n-id="btn-portable" class="i18n">Portable</div>
+</a>
+<a href="https://github.com/maximmax42/Discord-CustomRP" title="GitHub Page" class="btn">
+<i class="fa-brands fa-github"></i>
+<div data-i18n-id="btn-github" class="i18n">GitHub Page</div>
+</a>
+<a href="https://docs.customrp.xyz/" title="GitHub Wiki" class="btn">
+<i class="fa-solid fa-circle-question"></i>
+<div data-i18n-id="btn-help" class="i18n">Help</div>
+</a>
+<a href="https://discord.com/invite/9qX9eGxCxC" title="Discord Server" class="btn">
+<i class="fa-brands fa-discord"></i>
+<div data-i18n-id="btn-server" class="i18n">Discord Server</div>
+</a>
+<a href="https://boosty.to/maximmax42" title="maximmax42's Boosty" id="donate" class="btn btn-accent">
+<i class="fa-solid fa-dollar-sign"></i>
+<div data-i18n-id="btn-donate" class="i18n">Donate on Boosty</div>
+</a>
+
+<div class="ver">
+<div class="i18n" data-i18n-id="latest">Latest version:</div> <span id="latest">fetching...</span>
+(<span id="latestRelease">fetching...</span>)<br>
+<div class="i18n" data-i18n-id="downloads">Downloads:</div> <span id="latestDownloads">fetching...</span>
+(<div class="i18n" data-i18n-id="total">total:</div> <span id="allDownloads">fetching...</span>)
+</div>
+</header>
+<section class="screenshots">
+
+<div id="yandex_rtb_R-A-2137467-1"></div>
+<script type="3ced9f6b60a0f99050e7df35-text/javascript">window.yaContextCb.push(() => {
+                Ya.Context.AdvManager.render({
+                    renderTo: 'yandex_rtb_R-A-2137467-1',
+                    blockId: 'R-A-2137467-1'
+                })
+            })</script>
+<img src="assets/screenshot.png" alt="CustomRP Main Window">
+
+</section>
+<section class="features">
+<h2 data-i18n-id="features">Features</h2>
+<div class="grid">
+<div class="feature">
+<h3 data-i18n-id="feature-light">Lightweight</h3>
+<p data-i18n-id="feature-light-desc">CustomRP barely uses system resources: under 15MB of disk space and RAM.</p>
+</div>
+<div class="feature">
+<h3 data-i18n-id="feature-tray">Tray Minimization</h3>
+<p data-i18n-id="feature-tray-desc">The app will work quietly in the background and will show up when you want to.</p>
+</div>
+<div class="feature">
+<h3 data-i18n-id="feature-startup">Run on Startup</h3>
+<p data-i18n-id="feature-startup-desc">The app can automatically start with Windows, so your status will show right away.</p>
+</div>
+<div class="feature">
+<h3 data-i18n-id="feature-multilingual">Multilingual</h3>
+<p data-i18n-id="feature-multilingual-desc">The app supports multiple languages. If yours is missing, you can <a target="_blank" title="CustomRP on POEditor" href="https://poeditor.com/join/project?hash=2jq0i7ANr1">help translate the app</a>.</p>
+</div>
+</div>
+</section>
+<footer>
+Copyright &copy; 2018-<span id="currentYear">2023</span>
+<a target="_blank" title="maximmax42's website" href="https://www.maximmax42.ru/">maximmax42</a>
+</footer>
+<script src="assets/main.js" type="3ced9f6b60a0f99050e7df35-text/javascript"></script>
+
+<script type="3ced9f6b60a0f99050e7df35-text/javascript" src="../s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5d2e52e2255cb5a6"></script>
+<script src="cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="3ced9f6b60a0f99050e7df35-|49" defer=""></script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993" integrity="sha512-0ahDYl866UMhKuYcW078ScMalXqtFJggm7TmlUtp0UlD4eQk0Ixfnm5ykXKvGJNFjLMoortdseTfsRT8oCfgGA==" data-cf-beacon='{"rayId":"790931353f1f9094","version":"2022.11.3","r":1,"token":"f12f0aaeb608445a9d73625406246231","si":100}' crossorigin="anonymous"></script>
+</body>
+
+<!-- Mirrored from www.customrp.xyz/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 28 Jan 2023 10:54:58 GMT -->
+</html>
